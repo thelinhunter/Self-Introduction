@@ -2,7 +2,7 @@ This is the document which describes some important features on my website.
 
 1. Overall text and images.
 Almost all text and images (including background images) is not fixed.
-The size of most of elements is changable according to the size of web page.
+The size of most of elements is variable according to the size of web page.
 Besides, min-width and min-height is set with some elements if necessary.
 
 2. The Navigation Bar
