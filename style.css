@@ -82,6 +82,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     width: 40vw;
     height: 50vh;
+    border-radius: 5%;
     margin: auto;
     padding: 10px;
     min-height: 300px;
@@ -226,6 +227,7 @@ iframe {
 }
 
 .github-link {
+    color: rgba(0, 255, 255, 0.5);
     cursor: pointer;
 }
 
