@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: fixed;
+    background-color: #222;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+ }
+
+.nav a:hover {
+    color: #c00;
+}
+
+.nav.active {
+    background-color: #000;
+    opacity: 1;
+}
+
+.nav.active .container {
+    padding: 10px 0px;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    background-image: url("./img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.audio-control {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.audio-control span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40vw;
+    height: 50vh;
+    margin: auto;
+    padding: 10px;
+    min-height: 300px;
+}
+
+.left-card {
+    width: 45%;
+    height: auto;
+    text-align: center;
+}
+
+.left-card img {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+.left-card h1 {
+    color: #fff;
+    font-size: 2vw;
+    padding-top: 20px;
+}
+
+.left-card h2 {
+    color: #fff;
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+.left-card .dob {
+    color: #fff;
+    font-size: 1vw;
+    opacity: 0.8;
+}
+
+.left-card .nickname {
+    color: #fff;
+    font-size: 1vw;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+.right-card {
+    width: 55%;
+    height: auto;
+    text-align: center;
+}
+
+.right-card h1 {
+    color: #fff;
+    font-size: 1.5vw;
+    padding-top: 25px;
+}
+
+.right-card h2 {
+    color: #fff;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+.right-card .languages {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9vw;
+    width: auto;
+    margin: 5px;
+}
+
+.right-card .lan-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 4px;
+    color: #fff;
+}
+
+.right-card .lan-bar span {
+    color:#fff;
+}
+
+.right-card .lan-bar span:hover {
+    color:#0ff;
+}
+
+.hidden-window {
+    display: none;
+}
+
+.right-card .lan-bar:hover .hidden-window {
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    color:#000;
+    border-radius: 3px;
+    font-size: 1vw;
+    padding: 5px 10px;
+    z-index: 2;
+}
+
+.right-card .stars {
+    font-size: 18px;
+    color: rgb(255, 215, 0);
+}
+
+.title {
+    margin: 10px 0;
+    font-size: 200%;
+}
+
+.content {
+    font-size: 105%;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+}
+
+.midi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midi .content {
+    width: 50%;
+    margin-right: 20px;
+}
+
+iframe {
+    width: 50%;
+    height: 80%;
+    min-height: 300px;
+}
+
+.game-link {
+    cursor: pointer;
+}
+
+.game-link:hover {
+    color: #f00;
+}
+
+.github-link {
+    cursor: pointer;
+}
+
+.github-link:visited {
+    color:rgb(0, 0, 0);
+}
+
+.github-link:hover {
+    color: #f00;
+}
+
+.steam:hover {
+    color: cyan;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 50px;   
+    z-index: 0;
+}
+
+.slider img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+    position: absolute;
+}
+
+.slider p {
+    bottom: 101%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    position: absolute;
+}

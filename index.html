@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src='https://www.w3schools.cn/fonts/kit/a076d05399.js'></script>
+        <title>About me</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <h1 class="Top"><a href="#top">My website</a></h1>
+                <ul>
+                    <li><a href="#exp">Experience</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="audio-control">
+            <audio id="audio" src="./music/Hanabi.mp3" preload="auto" autoplay loop></audio>
+            <span id="audio-play">▶️</span>
+            <span id="audio-replay">🔄</span>
+            <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.5" style="width: 100px;">
+        </div>
+
+        <div class="top">
+            <div class="cards">
+                <div class="left-card">
+                    <img src="./img/zixuan.jpg">
+                    <h1>Wei Zixuan</h1>
+                    <h2>Postgraduate student from PolyU</h2>
+                    <p class="dob"><i class="far fa-calendar-alt"></i> Date of Birth: 16 March, 2002</p>
+                    <p class="nickname">Game ID/Nickname: linhunter</p>
+                </div>
+                <div class="right-card">
+                    <h1>My Skills</h1>
+                    <div class="languages">
+                        <h2>Languages</h2>
+                        <div class="lan-bar">
+                            <span class="lan">Chinese</span>
+                            <div class="hidden-window">
+                                I am native speaker of Chinese.
+                            </div>
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+                        </div>
+
+                        <div class="lan-bar">
+                            <span class="lan">English</span>
+                            <div class="hidden-window">
+                                I started to speak English since primary school and as the mainly used languages in my undergraduate in UK.
+                            </div>
+                            <div class="stars">
+                                ★★★★☆
+                            </div>
+                        </div>
+
+                        <div class="lan-bar">
+                            <span class="lan">Japanese</span>
+                            <div class="hidden-window">
+                                Japanese is learnt for my interest. I have already passed N1, the most difficult Japanese language proficiency test.
+                            </div>
+                            <div class="stars">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <h2>Programming Languages</h2>
+                        <div class="lan-bar">
+                            <span class="lan">Python</span>
+                            <div class="hidden-window">
+                                I have used Python for more than 6 years, and most of my projects are done by Python.
+                            </div>
+                            <div class="stars">
+                                ★★★★★
+                            </div> 
+                        </div>
+
+                        <div class="lan-bar">
+                            <span class="lan">Pascal</span>
+                            <div class="hidden-window">
+                                Pascal is my first programming language, which is out-of-date nowadays.
+                            </div>
+                            <div class="stars">
+                                ★★★☆☆
+                            </div>
+                        </div>
+
+                        <div class="lan-bar">
+                            <span class="lan">Java</span>
+                            <div class="hidden-window">
+                                I had used Java to make chess game and pixel games.
+                            </div>
+                            <div class="stars">
+                                ★★☆☆☆
+                            </div>
+                        </div>
+
+                        <div class="lan-bar">
+                            <span class="lan">HTML</span>
+                            <div class="hidden-window">
+                                I am not familiar with HTML, but I am quite excited to improve them.
+                            </div>
+                            <div class="stars">
+                                ★★☆☆☆
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="container">
+            <h1 id="exp" class="title">Experience</h1>
+            <p class="content">
+                Stendhal game is one of my project in my undergraduate, the official site of game can be visited <a href="https://stendhalgame.org/" class="game-link">here</a>. I was asked to create more features, like characters, maps, conversation, missions, logic of interactions, cheat codes used as admin.</br></br>
+            </p>
+            <div class="midi">
+                <p class="content">
+                    I had created a music project with my friend for fun, this is an interesting project to me. The link of this project can be found in GitHub called <a href="https://github.com/thelinhunter/MidiUtilHelper" class="github-link">MidiUtilHelper</a>.  If you try to play the audio by interacting with the <b>button at the bottom right</b>, the music which is programmed by MidiUtilHelper will be played. The application case can also be found in YouTube:</br></br>
+                </p>
+                <iframe src="https://www.youtube.com/embed/RKwzMfCgbug?si=mvJh97NFx-D8w1W_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <h1 id="hobby" class="title">Hobby</h1>
+            <p class="content">
+                I am a video game player in great passion, I have my own Nintendo Switch (mainly for playing Zelda and Mario kart) and Xbox. Mainly, I prefer to play games in my PC and I spend most of my game time on <a href="https://steamcommunity.com/id/linhunter" class="steam">Steam</a> to play <a>Dota2</a> and <a>Counter Strike</a>. I am a Monster Hunter player as well, and this is where my nickname "linhunter" from.</br></br>
+                I am also a <abbr title="Trading Card Game">TCG</abbr> player. Yugioh! is my favourite TCG, the decks I played are Blueeyes, Drytron and Dragon link. I have also attended some small events of Yugioh. I also play other TCGs like Pokemon, Weiß Schwarz, Shadowverse Evolve.</br></br>
+                My latest hobby is astronomy. Here are some pictures I took recently:
+            </p>
+            <div class="slider">
+                <img id="astronomy-image" src="./img/moon.jpg" alt="Image 1" />
+                <p id="astronomy-text">Moon</p>
+            </div>
+        </section>
+
+        <section class="container" id="contact">
+            <h1 class="title">Contact</h1>
+            <p class="content">You can contact me via:</br>
+                <i class="fa fa-phone"></i> +86 13764647948 (Mainland China) / +852 5683 3415 (Hong Kong)</br>
+                <i class="fa fa-envelope"></i> 23105946g@connect.polyu.hk (Student email) / thelinhunter@gmail.com (Personal email)</br>
+                Wechat: thelinhunter
+            </p>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
